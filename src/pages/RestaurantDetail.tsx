@@ -8,6 +8,7 @@ import { Separator } from "@/components/ui/separator";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { restaurants } from "@/data/restaurants";
+import RecommendedSection from "@/components/RecommendedSection";
 
 const RestaurantDetail = () => {
   const { id } = useParams();
@@ -187,6 +188,9 @@ const RestaurantDetail = () => {
           </div>
         </div>
       </div>
+
+      {/* Similar Restaurants */}
+      <RecommendedSection currentRestaurant={restaurant} />
 
       <Footer />
     </div>
