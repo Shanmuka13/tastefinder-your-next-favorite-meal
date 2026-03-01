@@ -52,10 +52,10 @@ const HeroSearch = () => {
           </SelectTrigger>
           <SelectContent>
             <SelectItem value="all">Any Price</SelectItem>
-            <SelectItem value="$">$ - Budget</SelectItem>
-            <SelectItem value="$$">$$ - Moderate</SelectItem>
-            <SelectItem value="$$$">$$$ - Upscale</SelectItem>
-            <SelectItem value="$$$$">$$$$ - Fine Dining</SelectItem>
+            <SelectItem value="₹">₹ - Budget</SelectItem>
+            <SelectItem value="₹₹">₹₹ - Moderate</SelectItem>
+            <SelectItem value="₹₹₹">₹₹₹ - Upscale</SelectItem>
+            <SelectItem value="₹₹₹₹">₹₹₹₹ - Fine Dining</SelectItem>
           </SelectContent>
         </Select>
 
