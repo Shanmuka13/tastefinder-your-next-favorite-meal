@@ -7,6 +7,7 @@ import Footer from "@/components/Footer";
 import HeroSearch from "@/components/HeroSearch";
 import RestaurantCard from "@/components/RestaurantCard";
 import { restaurants, cuisineCategories, testimonials } from "@/data/restaurants";
+import RecommendedSection from "@/components/RecommendedSection";
 import heroBg from "@/assets/hero-bg.jpg";
 
 const Index = () => {
@@ -67,6 +68,9 @@ const Index = () => {
           </div>
         </div>
       </section>
+
+      {/* ML Recommendations */}
+      <RecommendedSection />
 
       {/* Categories */}
       <section className="section-padding bg-muted/50">
